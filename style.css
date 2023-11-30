@@ -1,0 +1,72 @@
+/* @import url('https://fonts.googleapis.com/css2?family=Ubuntu&display=swap'); */
+/* @import url('https://fonts.googleapis.com/css2?family=Nunito:wght@800&family=Ubuntu&display=swap'); */
+/* @import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@1,900&family=Ubuntu&display=swap'); */
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;400&family=Ubuntu&display=swap');
+*{
+
+
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+font-family: 'Ubuntu', sans-serif;
+}
+body{
+background: #d8e1f5;
+width: 100%;
+height: 100%;
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+/* border: solid black; */
+padding: 20px;
+}
+
+
+.main {
+    /* border: solid red; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 304px;
+    height: 485px;
+    border-radius: 20px;
+    background:#fff;
+}
+
+
+.card img{ 
+    width: 297px;
+    height: 306px;
+    padding: 9px 9px;
+    border-radius: 20px;
+    margin: 8px 0px;
+}
+
+
+
+.content p{
+text-align:center;
+margin-bottom:-10px;
+padding: 0 20px;
+font-weight:750;
+/* font: bolder; */
+font-size: 20px;
+}
+
+
+
+.discription p{
+text-align: center;
+padding: 25px 20px;
+font-size: 15px;
+margin-bottom: 30px;
+font-weight: 500;
+color: #9d9da1;
+}
+.main{
+    /* border: 2px solid black; */
+    padding: 2px;
+}
